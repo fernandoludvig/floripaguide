@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@800&family=Poppins:wght@200&display=swap');
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+                                                                                /* Style Header*/
+.logo{
+    width: 80px;
+}
+
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+header {
+    background-color: #45807E;
+    display: grid;
+    grid-template-columns: 150px auto;
+    
+}
+nav {
+    display: flex;
+    justify-content: center; /* Center the navigation horizontally */
+}
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    background-color: white;
+    color: #d9c2a3;
+}
+                                                                                /* Style Section*/
+#hero-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; /* Add border-radius for a rounded image */
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+    color: white;
+}
+.home-title {
+    font-size: 50px; /* Increase the font size for the title */
+    margin-bottom: 10px;
+    font-family:Karla, Helvetica, sans-serif;
+}
+h4 {
+    font-size: 30px; /* Increase the font size for the subtitle */
+    font-family:Poppins, Helvetica, sans-serif;
+}
+
+                                                                                /* Style Body*/
+body {
+    background-color: #fcfbfb;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #1E6A8D; /* Dark blue color for h1 */
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 80px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: #EF476F; /* Coral color for h2 */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Styling for paragraph elements */
+p {
+    color: #444; /* Dark gray color for paragraphs */
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Styling for list elements */
+ul {
+    color: #555;
+    font-size: 16px;
+    margin-top: 0;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Styling for strong elements */
+strong {
+    font-weight: bold;
+}
+
+/* Styling for the gems container */
+.gems {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* Styling for the images */
+img.about {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    }
+
+                                                                                /* Style Main */
+
+
+
+                                                                                /* Style Background */
+
+
+
+                                                                                /* Style Footer */
+
+footer{
+    background-color:#45807E;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: rgb(0, 0, 0);
+}
+footer p {
+    font-size: 1.2em;
+    color: white;
+} 
+footer p a:hover {
+    text-decoration: underline;
+} 
+footer .social img{
+    padding-top: 15px;
+}
+
